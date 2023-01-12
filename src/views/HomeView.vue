@@ -15,7 +15,7 @@
       </div>
       <div class="col-md-6">
         <div>
-          <img  class="content-img" src="https://i.postimg.cc/Wbs07bs3/IMG-20230111-WA0011.jpg" alt="">
+          <img class="content-img" src="https://i.postimg.cc/Wbs07bs3/IMG-20230111-WA0011.jpg" alt="">
         </div>
       </div>
   </div>
@@ -69,11 +69,13 @@
     cursor: pointer;
     background: transparent;
     color: #f1f1f1;
+    font-weight: bolder;
 }
 
 #myBtn:hover {
-    background-image: linear-gradient(rgb(0, 255, 234), rgb(255, 0, 221));
-    color: white;
+    /* background-image: linear-gradient(rgb(0, 255, 234), rgb(255, 0, 221)); */
+    background-color: aliceblue;
+    color: black;
     transition: 0.8s;
 }
 
@@ -84,6 +86,12 @@
   padding-top: 150px;
   display: flex;
   justify-content: end;
+}
+
+@media screen and (max-width:600px) {
+  .content-img::after {
+    left: 37px;
+  }
 }
 
 @keyframes gradient {
