@@ -1,13 +1,7 @@
 <template>
-    <section id="contact" class="flex-height-fix py-5" style="background-image: linear-gradient(
-        40deg,
-        #4d6363,
-        #9aabab,
-        #f5f0f0,
-        rgb(214, 214, 214)
-      );">
+    <section id="contact" class="flex-height-fix py-5" style="background-image: linear-gradient(rgb(0, 255, 234), rgb(255, 0, 221));">
       <div>
-        <h1 class="testi-text text-center text-black">Contact Me</h1>
+        <h1 class="testi-text text-center">Contact Me</h1>
     </div>
         <div class="container my-5">
           <div class="card w-75 mx-auto p-5 shadow p-3 mb-5 bg-white rounded">
@@ -40,5 +34,6 @@
 <style>
     #contact {
         min-height: 100vh;
+        margin-top: 50px;
     }
 </style>

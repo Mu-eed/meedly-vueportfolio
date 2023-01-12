@@ -7,8 +7,6 @@
                 ></a></li>
             <li class="ms-3"><a class="text-muted" href="https://twitter.com/hiEedo?t=yqITF9EXug_znhW8uRVD9Q&s=09"><i class="fa-brands fa-twitter"></i
                 ></a></li>
-            <li class="ms-3"><a class="text-muted" href="https:://discordapp.com/users/616323066083016861"><i class="fa-brands fa-discord"></i
-                ></a></li>
             <li class="ms-3"><a class="text-muted"  href="https://m.youtube.com/c/DriftSLAYS"><i class="fa-brands fa-youtube"></i
                 ></a></li>
         </ul>
