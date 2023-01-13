@@ -1,6 +1,6 @@
 <template>
   <section id="about" class="flex-height-fix py-5 container-fluid">
-    <div class="container">
+    <div class="container animate__animated animate__slideInDown">
       <div class="card shadow p-3 mb-5 bg-white rounded">
         <div class="card-body">
       <div class="about-wrapper">
@@ -12,13 +12,13 @@
         </div>
       <div class="row">
         <div class="col-md-3">
-          <div><img src="https://i.postimg.cc/vBYz0Xzj/my-image.jpg"  class="about-img"></div>
+          <div><img src="https://i.postimg.cc/vBYz0Xzj/my-image.jpg"  class="about-img animate__animated animate__zoomIn animate__slow animate__delay-3s"></div>
         </div>
         <div class="col-md-9">
-          <h1 class="about-txt text-black">About Me</h1>
-          <p class="aboutMe-txt text-black">Hi there! I am a consistent fellow that will do whatever I
+          <h1 class="about-txt text-black animate__animated animate__fadeInRight animate__delay-1s">About Me</h1>
+          <p class="aboutMe-txt text-black animate__animated animate__fadeInLeft animate__delay-2s">Hi there! I am a consistent fellow that will do whatever I
               can do to push more towards my goals.</p>
-          <p class="aboutMe-txt text-black">I became very interested in gaming and computers at a very young
+          <p class="aboutMe-txt text-black animate__animated animate__fadeInLeft animate__delay-2s">I became very interested in gaming and computers at a very young
               age. I have been a gamer since I was about six years old, and I became
               interested in computers when I was at least 8. I am a nice and
               friendly guy; I can also be confident in working well
@@ -34,66 +34,103 @@
       </div>
     <div class="timeline">
       <div class="container-time left mt-4 mb-4">
-        <div class="resume-content">
+        <div class="resume-content animate__animated animate__fadeInRight animate__delay-5s">
           <h2 class="head">2022 - Present</h2>
           <p>In 2022, I started at the Life Choices Coding Course. I am busy learning the basics of coding, including HTML, CSS, Bootstrap, JavaScript, MySQL, etc.</p>
         </div>
       </div>
       <div class="container-time right">
-        <div class="resume-content">
+        <div class="resume-content animate__animated animate__fadeInLeft animate__delay-6s">
           <h2 class="head">2017 - 2021</h2>
           <p>In 2017, I went to Vista Nova High School, and I matriculated from VNHS in 2021.</p>
         </div>
       </div>
       <div class="container-time left mt-4">
-        <div class="resume-content">
+        <div class="resume-content animate__animated animate__fadeInRight animate__delay-7s">
           <h2 class="head">2010 - 2016</h2>
           <p>Between 2010 and 2016, I went to Vista Nova Primary School which is a private school.</p>
         </div>
       </div>
       <div class="container-time right">
-        <div class="resume-content">
+        <div class="resume-content animate__animated animate__fadeInLeft animate__delay-8s">
           <h2 class="head">Other ventures</h2>
           <p>In 2019, I volunteered at the SPCA. In the same year, I learnt about the Delphi Coding Language in Information Technology.</p>
         </div>
       </div>
     </div>
-    </section>
+    
 
-    <section id="about-skills" class="flex-height-fix py-5">
+    <!-- <section id="about-skills" class="flex-height-fix py-5"> -->
+      <div class="container">
+        <div class="card shadow p-3 mb-5 bg-white rounded" id="about-skills">
       <h1 class="testi-text text-center text-black">Skills</h1>
       <div class="container-fluid p-3 m-3">
         <div class="row">
           <div class="col-md-3 text-black">
-            <div id="skills-card"><i class="fa-brands fa-html5"></i></div>
+            <div id="skills-card" class="card shadow p-3 mb-5 bg-white rounded animate__animated animate__zoomIn animate__delay-7s">
+              <i class="fa-brands fa-html5" id="html-icon"></i>
+            </div>
+          </div>
+          <div class="col-md-3 text-black">
+            <div id="skills-card" class="card shadow p-3 mb-5 bg-white rounded animate__animated animate__zoomIn animate__delay-8s">
+              <i class="fa-brands fa-css3-alt" id="css-icon"></i>
+            </div>
+          </div>
+          <div class="col-md-3 text-black">
+            <div id="skills-card" class="card shadow p-3 mb-5 bg-white rounded animate__animated animate__zoomIn animate__delay-9s">
+              <i class="fa-brands fa-square-js" id="js-icon"></i>
+            </div>
+          </div>
+          <div class="col-md-3 text-black">
+            <div id="skills-card" class="card shadow p-3 mb-5 bg-white rounded animate__animated animate__zoomIn animate__delay-10s">
+              <i class="fa-brands fa-vuejs" id="vue-icon"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 text-black">
+            <div id="skills-card" class="card shadow p-3 mb-5 bg-white rounded animate__animated animate__zoomIn animate__delay-11s">
+              <i class="fa-brands fa-bootstrap" id="bootstrap-icon"></i>
+            </div>
+          </div>
+          <div class="col-md-6 text-black">
+            <div id="skills-card" class="card shadow p-3 mb-5 bg-white rounded animate__animated animate__zoomIn animate__delay-12s">
+              <i class="fa-brands fa-github" id="github-icon"></i>
+            </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+    <!-- </section> -->
+  </section>
 </template>
 
 <style>
-/* .flex.height-fix {
+.flex.height-fix {
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
     align-items: center;
-} */
+}
 
 #about {
   min-height: 100vh;
-  background-image: linear-gradient(
+  background: linear-gradient(
           40deg,
-          rgb(6, 182, 235),
-          #14c7e7,
-          #d82aa4,
-          #ff67f0
+          rgb(5, 190, 247),
+          #14b2e7,
+          #ef4dbf,
+          #fe01e5
         );
+        backdrop-filter: blur(10px);
+        animation: gradient 6s ease infinite;
+        background-size: 400% 400%;
 }
 
 #about-skills {
-  min-height: 100vh;
+  padding-right: 7px;
 }
 
 .about-wrapper {
@@ -116,8 +153,13 @@ p.aboutMe-txt {
 }
 
 .about-img {
-        width: 255px;
+        width: 310px;
         border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
         /* height: 500px; */
         /* margin-right: auto;
         margin-left: auto; */
@@ -163,13 +205,67 @@ p.aboutMe-txt {
   left: 50%;
 }
 
-@media screen and (max-width:600px) {
+/* @media screen and (max-width:600px) {
   .timeline::after {
     left: 31px;
   }
-}
+} */
 
 .left::after, .right::after {
   left: 15px;
+}
+
+#html-icon {
+  padding: 5rem;
+  color: black;
+  font-size: 4rem;
+  text-align: center;
+}
+
+#css-icon {
+  padding: 5rem;
+  color: black;
+  font-size: 4rem;
+  text-align: center;
+}
+
+#js-icon {
+  padding: 5rem;
+  color: black;
+  font-size: 4rem;
+  text-align: center;
+}
+
+#vue-icon {
+  padding: 5rem;
+  color: black;
+  font-size: 4rem;
+  text-align: center;
+}
+
+#bootstrap-icon {
+  padding: 5rem;
+  color: black;
+  font-size: 4rem;
+  text-align: center;
+}
+
+#github-icon {
+  padding: 5rem;
+  color: black;
+  font-size: 4rem;
+  text-align: center;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 </style>

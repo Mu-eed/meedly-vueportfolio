@@ -4,7 +4,7 @@
         <div>
             <h1 class="testi-text text-center">Testimonials</h1>
         </div>
-        <div class="container">
+        <div class="container justify-content-center">
           <div class="row justify-content-md-center">
             <div class="col-md-4">
               <div class="card aos-init aos-animate shadow p-3 mb-5 bg-white rounded" style="width: 18rem;" data-aos="flip-left">
@@ -29,7 +29,7 @@
                   <img src="https://i.postimg.cc/t4VTyq7N/aneeqa.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                       <h3>Aneeqa Brown</h3>
-                    <p class="card-text">Mu'eed is a highly thought intellectual from my perspective. He is not only hardworking but ambitious to recreate his vision exactly as thought of. He does his work accordingly and always provide a helping hand. He has great communication and leadership skills that a company needs especially his creativity.</p>
+                    <p class="card-text">Mu'eed is a highly thought intellectual from my perspective. He is not only hardworking but ambitious to recreate his vision exactly as thought of. He has great communication and leadership skills that a company needs especially his creativity.</p>
                   </div>
             </div>
           </div>

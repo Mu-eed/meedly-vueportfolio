@@ -1,5 +1,5 @@
 <template>
-    <section id="contact" class="flex-height-fix py-5" style="background-image: linear-gradient(rgb(0, 255, 234), rgb(255, 0, 221));">
+    <section id="contact" class="flex-height-fix py-5">
       <div>
         <h1 class="testi-text text-center">Contact Me</h1>
     </div>
@@ -33,7 +33,29 @@
 
 <style>
     #contact {
-        min-height: 100vh;
+      background: linear-gradient(
+          40deg,
+          rgb(5, 190, 247),
+          #14b2e7,
+          #ef4dbf,
+          #fe01e5
+        );
+        backdrop-filter: blur(10px);
+        animation: gradient 6s ease infinite;
+      min-height: 100vh;
+      background-size: 400% 400%;
         margin-top: 50px;
     }
+
+    @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 </style>

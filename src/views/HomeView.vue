@@ -8,14 +8,14 @@
     <div class="row">
       <div class="col-md-6">
     <div class="content">
-      <h1 class="content-header">Hello, I'm <span class="testi-text">Mu'eed Brown</span></h1>
-      <h4>Explore the realm of my portfolio...</h4>
-      <router-link to="/About"><button id="myBtn">Take the journey</button></router-link>
+      <h1 class="content-header animate__animated animate__fadeInLeft animate__slow">Hello, I'm </h1><h1 class="testi-text animate__animated animate__zoomIn animate__slow animate__delay-2s">Mu'eed Brown</h1>
+      <h4 class="animate__animated animate__rollIn animate__delay-3s">Explore the realm of my portfolio...</h4>
+      <router-link to="/About"><button id="myBtn" class="animate__animated animate__fadeIn animate__delay-5s">Take the journey</button></router-link>
     </div>
       </div>
       <div class="col-md-6">
         <div>
-          <img class="content-img" src="https://i.postimg.cc/Wbs07bs3/IMG-20230111-WA0011.jpg" alt="">
+          <img class="content-img animate__animated animate__slideInUp animate__slow" src="https://i.postimg.cc/Wbs07bs3/IMG-20230111-WA0011.jpg" alt="">
         </div>
       </div>
   </div>
@@ -25,17 +25,17 @@
 
 <style>
 #myHome {
-  background-image: linear-gradient(
+  background: linear-gradient(
           40deg,
-          rgb(6, 182, 235),
-          #14c7e7,
-          #d82aa4,
-          #ff67f0
+          rgb(5, 190, 247),
+          #14b2e7,
+          #ef4dbf,
+          #fe01e5
         );
         backdrop-filter: blur(10px);
-        animation: gradient 15s ease infinite;
+        animation: gradient 6s ease infinite;
     background-position: center;
-    background-size: cover;
+    background-size: 400% 400%;
     background-attachment: fixed;
     min-height: 100vh;
     overflow: hidden;
@@ -105,6 +105,10 @@
 		background-position: 0% 50%;
 	}
 }
+
+/* h1.testi-text.animate__animated.animate__zoomIn.animate__slower {
+    --animate-delay: 4s;
+} */
 </style>
 
 <script>
