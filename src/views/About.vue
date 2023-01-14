@@ -111,16 +111,14 @@
             id: 1,
             year: "2022 - Present",
             text: "In 2022, I started at the Life Choices Coding Course. I am busy learning the basics of coding, including HTML, CSS, Bootstrap, JavaScript, MySQL, etc."
-          },
-          
+          }, 
         ],
         resume2:[
           {
             id: 2,
             year: "2017 - 2021",
             text: "In 2017, I went to Vista Nova High School, and I matriculated from VNHS in 2021."
-          },
-          
+          }, 
         ],
         resume3:[
           {
