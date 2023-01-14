@@ -139,7 +139,7 @@ export default{
         min-height: 100vh;
         background-size: 400% 400%;
         overflow: hidden;
-        padding-top: 100px;
+        padding-top: 125px;
         padding-bottom: 80px;
         /* padding-left: 10%; */
     }

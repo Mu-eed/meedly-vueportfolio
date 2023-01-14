@@ -44,7 +44,7 @@
         animation: gradient 6s ease infinite;
       min-height: 100vh;
       background-size: 400% 400%;
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
     @keyframes gradient {

@@ -15,7 +15,7 @@
       </div>
       <div class="col-md-6">
         <div>
-          <img class="content-img animate__animated animate__slideInUp animate__slow" src="https://i.postimg.cc/Wbs07bs3/IMG-20230111-WA0011.jpg" alt="">
+          <img class="content-img animate__animated animate__slideInUp animate__slow" src="https://i.postimg.cc/5yctMWks/Picsart-23-01-14-09-51-16-857.jpg" alt="">
         </div>
       </div>
   </div>
@@ -80,10 +80,10 @@
 }
 
 .content-img {
-  width: 450px;
-  /* height: 5px; */
+   width: 710px;
+  /* height: 00px; */
   /* position: absolute; */
-  padding-top: 150px;
+  padding-top: 160px;
   display: flex;
   justify-content: end;
 }

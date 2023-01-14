@@ -5,11 +5,6 @@
         <div class="card-body">
       <div class="about-wrapper">
         
-        <div class="row">
-          <div class="col-md-3">
-            <i class="fa-regular fa-user"></i>
-          </div>
-        </div>
       <div class="row">
         <div class="col-md-3">
           <div><img src="https://i.postimg.cc/vBYz0Xzj/my-image.jpg"  class="about-img animate__animated animate__zoomIn animate__slow animate__delay-3s"></div>
@@ -33,28 +28,28 @@
         <h1 class="testi-text text-center">Resume & Education</h1>
       </div>
     <div class="timeline">
-      <div class="container-time left mt-4 mb-4">
+      <div class="container-time left mt-4 mb-4" v-for="items in resume" :key="items" :items="items">
         <div class="resume-content animate__animated animate__fadeInRight animate__delay-5s">
-          <h2 class="head">2022 - Present</h2>
-          <p>In 2022, I started at the Life Choices Coding Course. I am busy learning the basics of coding, including HTML, CSS, Bootstrap, JavaScript, MySQL, etc.</p>
+          <h2 class="head">{{ items.year }}</h2>
+          <p>{{ items.text }}</p>
         </div>
       </div>
-      <div class="container-time right">
-        <div class="resume-content animate__animated animate__fadeInLeft animate__delay-6s">
-          <h2 class="head">2017 - 2021</h2>
-          <p>In 2017, I went to Vista Nova High School, and I matriculated from VNHS in 2021.</p>
+      <div class="container-time right" v-for="items in resume2" :key="items" :items="items">
+        <div class="resume-content animate__animated animate__fadeInLeft animate__delay-5s">
+          <h2 class="head">{{ items.year }}</h2>
+          <p>{{ items.text }}</p>
         </div>
       </div>
-      <div class="container-time left mt-4">
-        <div class="resume-content animate__animated animate__fadeInRight animate__delay-7s">
-          <h2 class="head">2010 - 2016</h2>
-          <p>Between 2010 and 2016, I went to Vista Nova Primary School which is a private school.</p>
+      <div class="container-time left mt-4" v-for="items in resume3" :key="items" :items="items">
+        <div class="resume-content animate__animated animate__fadeInRight animate__delay-5s">
+          <h2 class="head">{{ items.year }}</h2>
+          <p>{{ items.text }}</p>
         </div>
       </div>
-      <div class="container-time right">
-        <div class="resume-content animate__animated animate__fadeInLeft animate__delay-8s">
-          <h2 class="head">Other ventures</h2>
-          <p>In 2019, I volunteered at the SPCA. In the same year, I learnt about the Delphi Coding Language in Information Technology.</p>
+      <div class="container-time right" v-for="items in resume4" :key="items" :items="items">
+        <div class="resume-content animate__animated animate__fadeInLeft animate__delay-5s">
+          <h2 class="head">{{ items.year }}</h2>
+          <p>{{ items.text }}</p>
         </div>
       </div>
     </div>
@@ -105,6 +100,46 @@
     <!-- </section> -->
   </section>
 </template>
+
+<script>
+  export default {
+    name: 'Resume',
+    data(){
+      return{
+        resume:[
+          {
+            id: 1,
+            year: "2022 - Present",
+            text: "In 2022, I started at the Life Choices Coding Course. I am busy learning the basics of coding, including HTML, CSS, Bootstrap, JavaScript, MySQL, etc."
+          },
+          
+        ],
+        resume2:[
+          {
+            id: 2,
+            year: "2017 - 2021",
+            text: "In 2017, I went to Vista Nova High School, and I matriculated from VNHS in 2021."
+          },
+          
+        ],
+        resume3:[
+          {
+            id: 3,
+            year: "2010 - 2016",
+            text: "Between 2010 and 2016, I went to Vista Nova Primary School which is a private school."
+          },
+        ],
+        resume4:[
+          {
+            id: 4,
+            year: "Other ventures",
+            text: "In 2019, I volunteered at the SPCA. In the same year, I learnt about the Delphi Coding Language in Information Technology"
+          },
+        ],
+      }
+    }
+  }
+</script>
 
 <style>
 .flex.height-fix {
