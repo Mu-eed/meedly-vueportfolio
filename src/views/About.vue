@@ -90,7 +90,7 @@
           </div>
           <div class="col-md-6 text-black">
             <div id="skills-card" class="card shadow p-3 mb-5 bg-white rounded animate__animated animate__zoomIn animate__delay-12s">
-              <i class="fa-brands fa-github" id="github-icon"></i>
+              <i class="fa-brands fa-python" id="python-icon"></i>
             </div>
             </div>
           </div>
@@ -283,7 +283,7 @@ p.aboutMe-txt {
   text-align: center;
 }
 
-#github-icon {
+#python-icon {
   padding: 5rem;
   color: black;
   font-size: 4rem;
