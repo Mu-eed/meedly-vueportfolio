@@ -129,7 +129,7 @@ export default{
         {
           id:8,
           name: "Guess the Number",
-          image: "https://i.postimg.cc/vH9HLn7W/guess.png",
+          image: "https://i.postimg.cc/vBFdmqjk/guessthenum.png",
           description: "Another side project that I made with Python.",
           netlify: "...",
           github: "https://github.com/Mu-eed/Python-GuessTheNum"
