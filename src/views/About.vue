@@ -83,12 +83,12 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 text-black">
+          <div class="col-md-3 text-black">
             <div id="skills-card" class="card shadow p-3 mb-5 bg-white rounded animate__animated animate__zoomIn animate__delay-11s">
               <i class="fa-brands fa-bootstrap" id="bootstrap-icon"></i>
             </div>
           </div>
-          <div class="col-md-6 text-black">
+          <div class="col-md-3 text-black">
             <div id="skills-card" class="card shadow p-3 mb-5 bg-white rounded animate__animated animate__zoomIn animate__delay-12s">
               <i class="fa-brands fa-python" id="python-icon"></i>
             </div>
