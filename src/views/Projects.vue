@@ -112,11 +112,27 @@ export default{
         },
         {
           id:6,
-          name: "Netflix Mock",
-          image: "https://i.postimg.cc/mgJqGVMn/netflix.png",
-          description: "A little side project for practice that I made about Netflix.",
-          netlify: "https://flourishing-centaur-30f24d.netlify.app/",
-          github: "https://github.com/Mu-eed/Netflix-Mockery"
+          name: "Meedleez (Capstone)",
+          image: "https://i.postimg.cc/vT6cfVBN/Screenshot-2023-04-18-093037.png",
+          description: "An e-commerce website I made for my Capstone project.",
+          netlify: "https://meedleez-store.web.app/#/",
+          github: "https://github.com/Mu-eed/capstone_project"
+        },
+        {
+          id:7,
+          name: "Rock, Paper, Scissors",
+          image: "https://i.postimg.cc/1XQDRSsT/rock-paper-scissors-items.png",
+          description: "My first project I made with Python.",
+          netlify: "...",
+          github: "https://github.com/Mu-eed/Python-RPS"
+        },
+        {
+          id:7,
+          name: "Guess the Number",
+          image: "https://i.postimg.cc/vH9HLn7W/guess.png",
+          description: "Another side project that I made with Python.",
+          netlify: "...",
+          github: "https://github.com/Mu-eed/Python-GuessTheNum"
         }
       ]
     }
